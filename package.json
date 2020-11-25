@@ -15,7 +15,7 @@
   "homepage": " ",
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/ludmiladev/goit-react-hw-01-components"
   },
   "scripts": {
     "start": "react-scripts start",
