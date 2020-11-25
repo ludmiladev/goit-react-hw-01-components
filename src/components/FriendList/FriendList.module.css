@@ -1,0 +1,33 @@
+.status {
+  display: block;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.statusOnline {
+  composes: status;
+  background-color: #008000;
+}
+.statusOfline {
+  composes: status;
+  background-color: #ff0000;
+}
+.item {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1f1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.friendsList {
+  list-style-type: none;
+}
+.avatar {
+  border-radius: 10%;
+  margin-right: 10px;
+}
