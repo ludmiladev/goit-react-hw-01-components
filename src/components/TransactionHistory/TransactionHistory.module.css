@@ -1,0 +1,42 @@
+@value border from '../../styles/variables.module.css';
+
+.transactionHistory {
+  margin: 0 auto 50px;
+  width: 700px;
+  border-spacing: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tableHead {
+  color: #fff;
+  background-color: #00bcd5;
+  text-align: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 3;
+  text-transform: uppercase;
+}
+
+.title:not(:last-child) {
+  border-right: solid 1px white;
+}
+
+.text {
+  border-right: border;
+  border-left: border;
+  height: 50px;
+}
+.text:nth-child(2n-1) {
+  background-color: #ffffff;
+}
+.item {
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(95, 95, 95);
+}
+.item:not(:last-child) {
+  border-right: border;
+}
