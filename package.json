@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/ludmiladev/goit-react-hw-01-components"
   },
-  "homepage": "",
+  "homepage": "https://ludmiladev.github.io/goit-react-hw-01-components/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
