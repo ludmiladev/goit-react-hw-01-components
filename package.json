@@ -2,9 +2,9 @@
   "name": "goit-react-hw-01-components",
   "repository": {
     "type": "git",
-    "url": "git+https://irynazalata.github.io/goit-react-hw-01-components.git"
+    "url": "git+https://github.com/ludmiladev/goit-react-hw-01-components"
   },
-  "homepage": "https://irynazalata.github.io/goit-react-hw-01-components/",
+  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
